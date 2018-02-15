@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE20216420360DCD00F02355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20216320360DCD00F02355 /* AppDelegate.swift */; };
+		CE20216620360DCE00F02355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20216520360DCE00F02355 /* ViewController.swift */; };
+		CE20216920360DCE00F02355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20216720360DCE00F02355 /* Main.storyboard */; };
+		CE20216B20360DCE00F02355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20216A20360DCE00F02355 /* Assets.xcassets */; };
+		CE20216E20360DCE00F02355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20216C20360DCE00F02355 /* LaunchScreen.storyboard */; };
+		CE20217920360DCE00F02355 /* Ridemind_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20217820360DCE00F02355 /* Ridemind_testTests.swift */; };
+		CE20218420360DCE00F02355 /* Ridemind_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20218320360DCE00F02355 /* Ridemind_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE20217520360DCE00F02355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE20215820360DCD00F02355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE20215F20360DCD00F02355;
+			remoteInfo = "Ridemind-test";
+		};
+		CE20218020360DCE00F02355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE20215820360DCD00F02355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE20215F20360DCD00F02355;
+			remoteInfo = "Ridemind-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE20216020360DCD00F02355 /* Ridemind-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridemind-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE20216320360DCD00F02355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE20216520360DCE00F02355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE20216820360DCE00F02355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE20216A20360DCE00F02355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE20216D20360DCE00F02355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE20216F20360DCE00F02355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE20217420360DCE00F02355 /* Ridemind-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ridemind-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE20217820360DCE00F02355 /* Ridemind_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ridemind_testTests.swift; sourceTree = "<group>"; };
+		CE20217A20360DCE00F02355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE20217F20360DCE00F02355 /* Ridemind-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ridemind-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE20218320360DCE00F02355 /* Ridemind_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ridemind_testUITests.swift; sourceTree = "<group>"; };
+		CE20218520360DCE00F02355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE20215D20360DCD00F02355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20217120360DCE00F02355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20217C20360DCE00F02355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE20215720360DCD00F02355 = {
+			isa = PBXGroup;
+			children = (
+				CE20216220360DCD00F02355 /* Ridemind-test */,
+				CE20217720360DCE00F02355 /* Ridemind-testTests */,
+				CE20218220360DCE00F02355 /* Ridemind-testUITests */,
+				CE20216120360DCD00F02355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE20216120360DCD00F02355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE20216020360DCD00F02355 /* Ridemind-test.app */,
+				CE20217420360DCE00F02355 /* Ridemind-testTests.xctest */,
+				CE20217F20360DCE00F02355 /* Ridemind-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE20216220360DCD00F02355 /* Ridemind-test */ = {
+			isa = PBXGroup;
+			children = (
+				CE20216320360DCD00F02355 /* AppDelegate.swift */,
+				CE20216520360DCE00F02355 /* ViewController.swift */,
+				CE20216720360DCE00F02355 /* Main.storyboard */,
+				CE20216A20360DCE00F02355 /* Assets.xcassets */,
+				CE20216C20360DCE00F02355 /* LaunchScreen.storyboard */,
+				CE20216F20360DCE00F02355 /* Info.plist */,
+			);
+			path = "Ridemind-test";
+			sourceTree = "<group>";
+		};
+		CE20217720360DCE00F02355 /* Ridemind-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE20217820360DCE00F02355 /* Ridemind_testTests.swift */,
+				CE20217A20360DCE00F02355 /* Info.plist */,
+			);
+			path = "Ridemind-testTests";
+			sourceTree = "<group>";
+		};
+		CE20218220360DCE00F02355 /* Ridemind-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE20218320360DCE00F02355 /* Ridemind_testUITests.swift */,
+				CE20218520360DCE00F02355 /* Info.plist */,
+			);
+			path = "Ridemind-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE20215F20360DCD00F02355 /* Ridemind-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE20218820360DCE00F02355 /* Build configuration list for PBXNativeTarget "Ridemind-test" */;
+			buildPhases = (
+				CE20215C20360DCD00F02355 /* Sources */,
+				CE20215D20360DCD00F02355 /* Frameworks */,
+				CE20215E20360DCD00F02355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ridemind-test";
+			productName = "Ridemind-test";
+			productReference = CE20216020360DCD00F02355 /* Ridemind-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE20217320360DCE00F02355 /* Ridemind-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE20218B20360DCE00F02355 /* Build configuration list for PBXNativeTarget "Ridemind-testTests" */;
+			buildPhases = (
+				CE20217020360DCE00F02355 /* Sources */,
+				CE20217120360DCE00F02355 /* Frameworks */,
+				CE20217220360DCE00F02355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE20217620360DCE00F02355 /* PBXTargetDependency */,
+			);
+			name = "Ridemind-testTests";
+			productName = "Ridemind-testTests";
+			productReference = CE20217420360DCE00F02355 /* Ridemind-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE20217E20360DCE00F02355 /* Ridemind-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE20218E20360DCE00F02355 /* Build configuration list for PBXNativeTarget "Ridemind-testUITests" */;
+			buildPhases = (
+				CE20217B20360DCE00F02355 /* Sources */,
+				CE20217C20360DCE00F02355 /* Frameworks */,
+				CE20217D20360DCE00F02355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE20218120360DCE00F02355 /* PBXTargetDependency */,
+			);
+			name = "Ridemind-testUITests";
+			productName = "Ridemind-testUITests";
+			productReference = CE20217F20360DCE00F02355 /* Ridemind-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE20215820360DCD00F02355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					CE20215F20360DCD00F02355 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CE20217320360DCE00F02355 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE20215F20360DCD00F02355;
+					};
+					CE20217E20360DCE00F02355 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE20215F20360DCD00F02355;
+					};
+				};
+			};
+			buildConfigurationList = CE20215B20360DCD00F02355 /* Build configuration list for PBXProject "Ridemind-test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE20215720360DCD00F02355;
+			productRefGroup = CE20216120360DCD00F02355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE20215F20360DCD00F02355 /* Ridemind-test */,
+				CE20217320360DCE00F02355 /* Ridemind-testTests */,
+				CE20217E20360DCE00F02355 /* Ridemind-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE20215E20360DCD00F02355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE20216E20360DCE00F02355 /* LaunchScreen.storyboard in Resources */,
+				CE20216B20360DCE00F02355 /* Assets.xcassets in Resources */,
+				CE20216920360DCE00F02355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20217220360DCE00F02355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20217D20360DCE00F02355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE20215C20360DCD00F02355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE20216620360DCE00F02355 /* ViewController.swift in Sources */,
+				CE20216420360DCD00F02355 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20217020360DCE00F02355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE20217920360DCE00F02355 /* Ridemind_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE20217B20360DCE00F02355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE20218420360DCE00F02355 /* Ridemind_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE20217620360DCE00F02355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE20215F20360DCD00F02355 /* Ridemind-test */;
+			targetProxy = CE20217520360DCE00F02355 /* PBXContainerItemProxy */;
+		};
+		CE20218120360DCE00F02355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE20215F20360DCD00F02355 /* Ridemind-test */;
+			targetProxy = CE20218020360DCE00F02355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE20216720360DCE00F02355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE20216820360DCE00F02355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE20216C20360DCE00F02355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE20216D20360DCE00F02355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE20218620360DCE00F02355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE20218720360DCE00F02355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE20218920360DCE00F02355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S43KYXYA;
+				INFOPLIST_FILE = "Ridemind-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE20218A20360DCE00F02355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S43KYXYA;
+				INFOPLIST_FILE = "Ridemind-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE20218C20360DCE00F02355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S43KYXYA;
+				INFOPLIST_FILE = "Ridemind-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridemind-test.app/Ridemind-test";
+			};
+			name = Debug;
+		};
+		CE20218D20360DCE00F02355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S43KYXYA;
+				INFOPLIST_FILE = "Ridemind-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridemind-test.app/Ridemind-test";
+			};
+			name = Release;
+		};
+		CE20218F20360DCE00F02355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S43KYXYA;
+				INFOPLIST_FILE = "Ridemind-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ridemind-test";
+			};
+			name = Debug;
+		};
+		CE20219020360DCE00F02355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3S43KYXYA;
+				INFOPLIST_FILE = "Ridemind-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ridemind-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE20215B20360DCD00F02355 /* Build configuration list for PBXProject "Ridemind-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE20218620360DCE00F02355 /* Debug */,
+				CE20218720360DCE00F02355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE20218820360DCE00F02355 /* Build configuration list for PBXNativeTarget "Ridemind-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE20218920360DCE00F02355 /* Debug */,
+				CE20218A20360DCE00F02355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE20218B20360DCE00F02355 /* Build configuration list for PBXNativeTarget "Ridemind-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE20218C20360DCE00F02355 /* Debug */,
+				CE20218D20360DCE00F02355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE20218E20360DCE00F02355 /* Build configuration list for PBXNativeTarget "Ridemind-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE20218F20360DCE00F02355 /* Debug */,
+				CE20219020360DCE00F02355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE20215820360DCD00F02355 /* Project object */;
+}
