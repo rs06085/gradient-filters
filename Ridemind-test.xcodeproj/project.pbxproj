@@ -15,6 +15,7 @@
 		CE20216E20360DCE00F02355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20216C20360DCE00F02355 /* LaunchScreen.storyboard */; };
 		CE20217920360DCE00F02355 /* Ridemind_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20217820360DCE00F02355 /* Ridemind_testTests.swift */; };
 		CE20218420360DCE00F02355 /* Ridemind_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20218320360DCE00F02355 /* Ridemind_testUITests.swift */; };
+		CE2021972036280B00F02355 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2021952036280A00F02355 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		CE20217F20360DCE00F02355 /* Ridemind-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ridemind-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE20218320360DCE00F02355 /* Ridemind_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ridemind_testUITests.swift; sourceTree = "<group>"; };
 		CE20218520360DCE00F02355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2021942036280A00F02355 /* Ridemind-test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ridemind-test-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE2021952036280A00F02355 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CE2021962036280B00F02355 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		CE20216220360DCD00F02355 /* Ridemind-test */ = {
 			isa = PBXGroup;
 			children = (
+				CE202193203627C700F02355 /* Supporting Files */,
 				CE20216320360DCD00F02355 /* AppDelegate.swift */,
 				CE20216520360DCE00F02355 /* ViewController.swift */,
 				CE20216720360DCE00F02355 /* Main.storyboard */,
@@ -147,6 +152,16 @@
 				CE20218520360DCE00F02355 /* Info.plist */,
 			);
 			path = "Ridemind-testUITests";
+			sourceTree = "<group>";
+		};
+		CE202193203627C700F02355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2021962036280B00F02355 /* SWRevealViewController.h */,
+				CE2021952036280A00F02355 /* SWRevealViewController.m */,
+				CE2021942036280A00F02355 /* Ridemind-test-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +234,7 @@
 				TargetAttributes = {
 					CE20215F20360DCD00F02355 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					CE20217320360DCE00F02355 = {
@@ -347,6 +363,7 @@
 			files = (
 				CE20216620360DCE00F02355 /* ViewController.swift in Sources */,
 				CE20216420360DCD00F02355 /* AppDelegate.swift in Sources */,
+				CE2021972036280B00F02355 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,12 +530,15 @@
 			baseConfigurationReference = B726E9D93A9C08D37287F1AC /* Pods-Ridemind-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3S43KYXYA;
 				INFOPLIST_FILE = "Ridemind-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ridemind-test/Supporting Files/Ridemind-test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -529,12 +549,14 @@
 			baseConfigurationReference = C346128045853C7BB8A4A363 /* Pods-Ridemind-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3S43KYXYA;
 				INFOPLIST_FILE = "Ridemind-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.karolemeas.Ridemind-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ridemind-test/Supporting Files/Ridemind-test-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
