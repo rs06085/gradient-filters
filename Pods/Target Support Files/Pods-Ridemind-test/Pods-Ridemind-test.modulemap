@@ -1,0 +1,6 @@
+framework module Pods_Ridemind_test {
+  umbrella header "Pods-Ridemind-test-umbrella.h"
+
+  export *
+  module * { export * }
+}
