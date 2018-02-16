@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		8AB0338E6D066E918E62C835 /* Pods_Ridemind_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15938EE616BF01D43C1A4B98 /* Pods_Ridemind_test.framework */; };
 		CE20216420360DCD00F02355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20216320360DCD00F02355 /* AppDelegate.swift */; };
-		CE20216620360DCE00F02355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20216520360DCE00F02355 /* ViewController.swift */; };
 		CE20216920360DCE00F02355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20216720360DCE00F02355 /* Main.storyboard */; };
 		CE20216B20360DCE00F02355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20216A20360DCE00F02355 /* Assets.xcassets */; };
 		CE20216E20360DCE00F02355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20216C20360DCE00F02355 /* LaunchScreen.storyboard */; };
 		CE20217920360DCE00F02355 /* Ridemind_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20217820360DCE00F02355 /* Ridemind_testTests.swift */; };
 		CE20218420360DCE00F02355 /* Ridemind_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20218320360DCE00F02355 /* Ridemind_testUITests.swift */; };
 		CE2021972036280B00F02355 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2021952036280A00F02355 /* SWRevealViewController.m */; };
+		CE20219C20362ED300F02355 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20219B20362ED300F02355 /* MenuVC.swift */; };
+		CE20219E2036315C00F02355 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20219D2036315C00F02355 /* MainPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		C346128045853C7BB8A4A363 /* Pods-Ridemind-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridemind-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ridemind-test/Pods-Ridemind-test.release.xcconfig"; sourceTree = "<group>"; };
 		CE20216020360DCD00F02355 /* Ridemind-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridemind-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE20216320360DCD00F02355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE20216520360DCE00F02355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE20216820360DCE00F02355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE20216A20360DCE00F02355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE20216D20360DCE00F02355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		CE2021942036280A00F02355 /* Ridemind-test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ridemind-test-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE2021952036280A00F02355 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		CE2021962036280B00F02355 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CE20219B20362ED300F02355 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		CE20219D2036315C00F02355 /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +127,11 @@
 		CE20216220360DCD00F02355 /* Ridemind-test */ = {
 			isa = PBXGroup;
 			children = (
+				CE20219820362E9000F02355 /* Model */,
+				CE20219920362E9700F02355 /* View */,
+				CE20219A20362EA300F02355 /* Controller */,
 				CE202193203627C700F02355 /* Supporting Files */,
 				CE20216320360DCD00F02355 /* AppDelegate.swift */,
-				CE20216520360DCE00F02355 /* ViewController.swift */,
 				CE20216720360DCE00F02355 /* Main.storyboard */,
 				CE20216A20360DCE00F02355 /* Assets.xcassets */,
 				CE20216C20360DCE00F02355 /* LaunchScreen.storyboard */,
@@ -162,6 +166,29 @@
 				CE2021942036280A00F02355 /* Ridemind-test-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE20219820362E9000F02355 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE20219920362E9700F02355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE20219A20362EA300F02355 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE20219B20362ED300F02355 /* MenuVC.swift */,
+				CE20219D2036315C00F02355 /* MainPageVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,9 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE20216620360DCE00F02355 /* ViewController.swift in Sources */,
 				CE20216420360DCD00F02355 /* AppDelegate.swift in Sources */,
 				CE2021972036280B00F02355 /* SWRevealViewController.m in Sources */,
+				CE20219E2036315C00F02355 /* MainPageVC.swift in Sources */,
+				CE20219C20362ED300F02355 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
