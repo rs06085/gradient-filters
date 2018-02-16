@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Ubuntu-Bold.ttf</string>
+		<string>Ubuntu-BoldItalic.ttf</string>
+	</array>
 </dict>
 </plist>

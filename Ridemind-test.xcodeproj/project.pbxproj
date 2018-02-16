@@ -17,6 +17,15 @@
 		CE2021972036280B00F02355 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2021952036280A00F02355 /* SWRevealViewController.m */; };
 		CE20219C20362ED300F02355 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20219B20362ED300F02355 /* MenuVC.swift */; };
 		CE20219E2036315C00F02355 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20219D2036315C00F02355 /* MainPageVC.swift */; };
+		CE2021A020373DD500F02355 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20219F20373DD500F02355 /* GradientView.swift */; };
+		CE2021AA2037521D00F02355 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A22037521B00F02355 /* Ubuntu-Regular.ttf */; };
+		CE2021AB2037521D00F02355 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A32037521B00F02355 /* Ubuntu-BoldItalic.ttf */; };
+		CE2021AC2037521D00F02355 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A42037521C00F02355 /* Ubuntu-Bold.ttf */; };
+		CE2021AD2037521D00F02355 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A52037521C00F02355 /* Ubuntu-LightItalic.ttf */; };
+		CE2021AE2037521D00F02355 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A62037521C00F02355 /* Ubuntu-Medium.ttf */; };
+		CE2021AF2037521D00F02355 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A72037521C00F02355 /* Ubuntu-Light.ttf */; };
+		CE2021B02037521D00F02355 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A82037521C00F02355 /* Ubuntu-MediumItalic.ttf */; };
+		CE2021B12037521D00F02355 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2021A92037521D00F02355 /* Ubuntu-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,15 @@
 		CE2021962036280B00F02355 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CE20219B20362ED300F02355 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		CE20219D2036315C00F02355 /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		CE20219F20373DD500F02355 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		CE2021A22037521B00F02355 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		CE2021A32037521B00F02355 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE2021A42037521C00F02355 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		CE2021A52037521C00F02355 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE2021A62037521C00F02355 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		CE2021A72037521C00F02355 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		CE2021A82037521C00F02355 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE2021A92037521D00F02355 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +145,7 @@
 		CE20216220360DCD00F02355 /* Ridemind-test */ = {
 			isa = PBXGroup;
 			children = (
+				CE2021A12037520800F02355 /* Fonts */,
 				CE20219820362E9000F02355 /* Model */,
 				CE20219920362E9700F02355 /* View */,
 				CE20219A20362EA300F02355 /* Controller */,
@@ -178,6 +197,7 @@
 		CE20219920362E9700F02355 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE20219F20373DD500F02355 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +209,21 @@
 				CE20219D2036315C00F02355 /* MainPageVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE2021A12037520800F02355 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE2021A42037521C00F02355 /* Ubuntu-Bold.ttf */,
+				CE2021A32037521B00F02355 /* Ubuntu-BoldItalic.ttf */,
+				CE2021A92037521D00F02355 /* Ubuntu-Italic.ttf */,
+				CE2021A72037521C00F02355 /* Ubuntu-Light.ttf */,
+				CE2021A52037521C00F02355 /* Ubuntu-LightItalic.ttf */,
+				CE2021A62037521C00F02355 /* Ubuntu-Medium.ttf */,
+				CE2021A82037521C00F02355 /* Ubuntu-MediumItalic.ttf */,
+				CE2021A22037521B00F02355 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,8 +336,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2021B12037521D00F02355 /* Ubuntu-Italic.ttf in Resources */,
+				CE2021AA2037521D00F02355 /* Ubuntu-Regular.ttf in Resources */,
+				CE2021AB2037521D00F02355 /* Ubuntu-BoldItalic.ttf in Resources */,
+				CE2021B02037521D00F02355 /* Ubuntu-MediumItalic.ttf in Resources */,
+				CE2021AC2037521D00F02355 /* Ubuntu-Bold.ttf in Resources */,
+				CE2021AD2037521D00F02355 /* Ubuntu-LightItalic.ttf in Resources */,
 				CE20216E20360DCE00F02355 /* LaunchScreen.storyboard in Resources */,
 				CE20216B20360DCE00F02355 /* Assets.xcassets in Resources */,
+				CE2021AE2037521D00F02355 /* Ubuntu-Medium.ttf in Resources */,
+				CE2021AF2037521D00F02355 /* Ubuntu-Light.ttf in Resources */,
 				CE20216920360DCE00F02355 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +433,7 @@
 			files = (
 				CE20216420360DCD00F02355 /* AppDelegate.swift in Sources */,
 				CE2021972036280B00F02355 /* SWRevealViewController.m in Sources */,
+				CE2021A020373DD500F02355 /* GradientView.swift in Sources */,
 				CE20219E2036315C00F02355 /* MainPageVC.swift in Sources */,
 				CE20219C20362ED300F02355 /* MenuVC.swift in Sources */,
 			);

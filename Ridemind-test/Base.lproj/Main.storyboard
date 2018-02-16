@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Medium.ttf">
+            <string>Ubuntu-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Reveal View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -37,7 +42,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YUP-q9-uAP">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YUP-q9-uAP" customClass="GradientView" customModule="Ridemind_test" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QH-Ij-1Dn">
@@ -49,12 +54,19 @@
                                         <state key="normal" image="smackBurger"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.29019607843137252" green="0.30196078431372547" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="4QH-Ij-1Dn" firstAttribute="leading" secondItem="YUP-q9-uAP" secondAttribute="leading" constant="12" id="8xi-6t-C96"/>
                                     <constraint firstAttribute="bottom" secondItem="4QH-Ij-1Dn" secondAttribute="bottom" constant="12" id="Rb8-2q-MJS"/>
                                     <constraint firstAttribute="height" constant="77" id="nE0-u7-1PI"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" red="0.066666666669999999" green="0.42745098040000001" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" red="0.1333333333" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -80,16 +92,89 @@
                     <view key="view" contentMode="scaleToFill" id="RNu-As-91O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ema-Oc-2VZ" customClass="GradientView" customModule="Ridemind_test" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="315" height="150"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account" translatesAutoresizingMaskIntoConstraints="NO" id="9xB-hQ-X9U">
+                                        <rect key="frame" x="20" y="45" width="60" height="60"/>
+                                        <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="E0b-Ng-cvo"/>
+                                            <constraint firstAttribute="width" constant="60" id="KG1-GH-xOm"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christos Karolemeas" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJX-8W-gWp">
+                                        <rect key="frame" x="90" y="45" width="143" height="39"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="143" id="2hO-ZX-Rwa"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="3Wj-qe-G2g"/>
+                                            <constraint firstAttribute="height" constant="39" id="94N-zf-VyR"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="143" id="beB-BS-13l"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxd-mq-4hW">
+                                        <rect key="frame" x="90" y="90" width="75" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="Whk-8y-491"/>
+                                            <constraint firstAttribute="width" constant="75" id="lPP-Ad-awc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="13"/>
+                                        <state key="normal" title="View Profile">
+                                            <color key="titleColor" red="0.99019607843137258" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="9xB-hQ-X9U" firstAttribute="centerY" secondItem="ema-Oc-2VZ" secondAttribute="centerY" id="3vz-DN-KhV"/>
+                                    <constraint firstItem="9xB-hQ-X9U" firstAttribute="leading" secondItem="ema-Oc-2VZ" secondAttribute="leading" constant="20" id="42w-61-Rgg"/>
+                                    <constraint firstItem="Wxd-mq-4hW" firstAttribute="leading" secondItem="9xB-hQ-X9U" secondAttribute="trailing" constant="10" id="6Dt-UI-Vqk"/>
+                                    <constraint firstItem="LJX-8W-gWp" firstAttribute="leading" secondItem="9xB-hQ-X9U" secondAttribute="trailing" constant="10" id="DI0-ZL-MI2"/>
+                                    <constraint firstItem="LJX-8W-gWp" firstAttribute="top" secondItem="9xB-hQ-X9U" secondAttribute="top" id="d9i-cZ-pnC"/>
+                                    <constraint firstItem="Wxd-mq-4hW" firstAttribute="bottom" secondItem="9xB-hQ-X9U" secondAttribute="bottom" id="our-Nt-Nvd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" red="0.066666666669999999" green="0.42745098040000001" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" red="0.1333333333" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ema-Oc-2VZ" firstAttribute="trailing" secondItem="xdz-RW-vNB" secondAttribute="trailing" constant="-60" id="8On-R1-qzz"/>
+                            <constraint firstItem="ema-Oc-2VZ" firstAttribute="top" secondItem="xdz-RW-vNB" secondAttribute="top" constant="-20" id="H1d-hi-wjk"/>
+                            <constraint firstItem="xdz-RW-vNB" firstAttribute="bottom" secondItem="ema-Oc-2VZ" secondAttribute="bottom" constant="517" id="pvH-Kk-A4m"/>
+                            <constraint firstItem="ema-Oc-2VZ" firstAttribute="leading" secondItem="xdz-RW-vNB" secondAttribute="leading" id="zKm-k0-dGw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xdz-RW-vNB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" red="0.066666666669999999" green="0.42745098040000001" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" red="0.1333333333" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
+                    <connections>
+                        <outlet property="profileImg" destination="9xB-hQ-X9U" id="fdP-fY-qij"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HHd-B6-XHi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="639" y="-232"/>
+            <point key="canvasLocation" x="637.60000000000002" y="-232.53373313343329"/>
         </scene>
     </scenes>
     <resources>
+        <image name="account" width="57" height="57"/>
         <image name="smackBurger" width="40" height="40"/>
     </resources>
 </document>
