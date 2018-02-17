@@ -146,12 +146,32 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Nf-Zf-a3v">
+                                <rect key="frame" x="0.0" y="150" width="375" height="517"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u5e-Yi-wzF">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="517"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="u5e-Yi-wzF" secondAttribute="trailing" id="QE9-iD-fdO"/>
+                                    <constraint firstAttribute="bottom" secondItem="u5e-Yi-wzF" secondAttribute="bottom" id="U80-DT-Vgr"/>
+                                    <constraint firstItem="u5e-Yi-wzF" firstAttribute="leading" secondItem="3Nf-Zf-a3v" secondAttribute="leading" id="b8J-xv-WFs"/>
+                                    <constraint firstItem="u5e-Yi-wzF" firstAttribute="top" secondItem="3Nf-Zf-a3v" secondAttribute="top" id="xHc-oV-Y5V"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ema-Oc-2VZ" firstAttribute="trailing" secondItem="xdz-RW-vNB" secondAttribute="trailing" constant="-60" id="8On-R1-qzz"/>
                             <constraint firstItem="ema-Oc-2VZ" firstAttribute="top" secondItem="xdz-RW-vNB" secondAttribute="top" constant="-20" id="H1d-hi-wjk"/>
+                            <constraint firstItem="3Nf-Zf-a3v" firstAttribute="top" secondItem="ema-Oc-2VZ" secondAttribute="bottom" id="Q6l-hR-dUu"/>
+                            <constraint firstItem="3Nf-Zf-a3v" firstAttribute="bottom" secondItem="xdz-RW-vNB" secondAttribute="bottom" id="SLQ-ZN-crg"/>
+                            <constraint firstItem="3Nf-Zf-a3v" firstAttribute="leading" secondItem="xdz-RW-vNB" secondAttribute="leading" id="k1A-xu-LVB"/>
                             <constraint firstItem="xdz-RW-vNB" firstAttribute="bottom" secondItem="ema-Oc-2VZ" secondAttribute="bottom" constant="517" id="pvH-Kk-A4m"/>
+                            <constraint firstItem="3Nf-Zf-a3v" firstAttribute="trailing" secondItem="xdz-RW-vNB" secondAttribute="trailing" id="qCb-vA-4ar"/>
                             <constraint firstItem="ema-Oc-2VZ" firstAttribute="leading" secondItem="xdz-RW-vNB" secondAttribute="leading" id="zKm-k0-dGw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xdz-RW-vNB"/>
